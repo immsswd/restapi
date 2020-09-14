@@ -13,6 +13,9 @@ point out the package.json and see the **dependencies**, to install all the depe
 npm install --save
 ```
 
+***Unhide*** the .env.test and rename it to .env, then configure/adjust database uri and port number
+
+
 to run the application:
 ```bash
 npm run dev
