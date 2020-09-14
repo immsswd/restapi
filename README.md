@@ -20,6 +20,11 @@ to run the application:
 ```bash
 npm run dev
 ```
+or run with:
+
+```bash
+node index
+```
 
 use json collections data from `collections/*.json`
 
