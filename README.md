@@ -34,5 +34,30 @@ rest api using nodejs (expressJS), MongoDB, Postman
 | http://127.0.0.1:3000/api/emp/:id |PATCH   | Update employee's data  |
 
 #### TESTING:
+
+##### Employees
+1. Testing
 ![npm run dev](assets/img/run.JPG "run")
 
+2. `/api/emp` GET all data
+![npm run dev](assets/img/02_get-api-emp.JPG "get api/emp")
+
+3. `/api/emp/:id` GET data based on id
+![npm run dev](assets/img/03_get-api-emp-id.JPG "get api/emp/:id")
+
+4. `/api/emp` POST create new data
+![npm run dev](assets/img/04_post-api-emp.JPG "post api/emp")
+
+5. `/api/emp/:id` DELETE remove a data
+![npm run dev](assets/img/05_delete-api-emp-id.JPG "delete api/emp")
+
+6. `/api/emp/:id` PATCH updating a data
+![npm run dev](assets/img/06_patch-api-emp-id.JPG "patch api/emp")
+
+
+##### Absensi
+1. `/api/absensi` GET all data
+![npm run dev](assets/img/07_get-api-absensi.JPG "get api/absensi")
+
+1. `/api/absensi` POST create new data
+![npm run dev](assets/img/08_post-api-absensi-nik.JPG "post api/absensi")
