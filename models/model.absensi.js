@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-
 // BUAT SKEMA Absensi Karyawan
 const absensiSchema = new mongoose.Schema({
 
@@ -17,8 +16,11 @@ const absensiSchema = new mongoose.Schema({
     },
     date_out: {
         type: Date,
-        default: Date.now
+        default: ''
+    },
+    late: {
+        type: String,
+        default: ''
     }
 });
-
-module.exports = mongoose.model('Absensi', absensiSchema);
+exports.Absensi = mongoose.model('Absensi', absensiSchema);

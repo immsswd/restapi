@@ -3,7 +3,7 @@ const express = require('express');
 // const { model } = require('../models/model.emp');
 const router = express.Router();
 
-const Emp = require('../models/model.emp');
+const { Emp } = require('../models/model.emp');
 
 // @routes GET api/emp
 // desc: GET all employees data
@@ -34,7 +34,12 @@ router.get('/:id', async (req, res, next) => {
 // @routes POST api/emp
 // desc: Create a post
 router.post('/', async (req, res) => {
-    let newEmp = new Emp(req.body);
+    // let newEmp = new Emp(req.body);
+    let newEmp = new Emp({
+        fullname: req.body.fullName,
+        nik: req.body.empNIK,
+        email: req.body.mail
+    });
     try {
         let postNewEmp = await newEmp.save();
         if (!postNewEmp) throw Error('hmm.. something went wrong, when adding new emp data');

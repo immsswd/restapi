@@ -33,3 +33,6 @@ rest api using nodejs (expressJS), MongoDB, Postman
 | http://127.0.0.1:3000/api/emp/:id  |DELETE   | Delete employee's data according to pointed id  |
 | http://127.0.0.1:3000/api/emp/:id |PATCH   | Update employee's data  |
 
+#### TESTING:
+![npm run dev](assets/img/run.JPG "run")
+

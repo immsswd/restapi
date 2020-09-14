@@ -24,12 +24,12 @@ mongoose.connect(process.env.mongoURI, {
     useUnifiedTopology: true,
     useFindAndModify: false
 })
-.then(() => {
-    console.log('database is connected!\n ...')
-})
-.catch(err => {
-    console.log(err)
-});
+    .then(() => {
+        console.log('the app is connected to db\n ...')
+    })
+    .catch(err => {
+        console.log(err)
+    });
 // ----------------- /connect to mongodb atlas --------------------
 
 // ----------------- ROUTES -----------------------------

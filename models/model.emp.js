@@ -18,7 +18,7 @@ const empSchema = new mongoose.Schema({
     email: {
         type: String,
         required: true,
-        minlength: 3,
+        minlength: 10,
         maxlength: 100
     },
     date_updated: {
@@ -27,4 +27,5 @@ const empSchema = new mongoose.Schema({
     }
 });
 
-module.exports = mongoose.model('Employees', empSchema);
+// module.exports = mongoose.model('Employees', empSchema);
+exports.Emp = mongoose.model('Employees', empSchema);
