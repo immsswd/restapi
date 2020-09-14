@@ -1,3 +1,14 @@
+### Installation
+```
+git clone https://github.com/immsswd/restapi.git
+```
+point out the package.json and see the **dependencies**, to install all the dependencies:
+```
+npm install --save
+```
+
+use json collections data from `collections/`
+
 ### REST API
 rest api using nodejs (expressJS), MongoDB, Postman
 
