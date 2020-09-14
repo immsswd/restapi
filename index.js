@@ -18,30 +18,24 @@ app.use(express.urlencoded({
 }));
 // ----------------- /middleware -----------------------------
 
-// ----------------- ROUTES -----------------------------
-app.use('/api/emp', empRoute);
-app.use('/api/absensi', absensiRoute);
-// ----------------- /ROUTES -----------------------------
-
 // ----------------- connect to mongodb atlas --------------------
 mongoose.connect(process.env.mongoURI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false
 })
-    .then(() => {
-        console.log('database is connected!\n ...')
-    })
-    .catch(err => {
-        console.log(err)
-    });
+.then(() => {
+    console.log('database is connected!\n ...')
+})
+.catch(err => {
+    console.log(err)
+});
 // ----------------- /connect to mongodb atlas --------------------
 
-// ----------------- ROUTING -----------------------------
-app.get('/', (req, res) => {
-    res.sendStatus(200);
-});
-// ----------------- /ROUTING -----------------------------
+// ----------------- ROUTES -----------------------------
+app.use('/api/emp', empRoute);
+app.use('/api/absensi', absensiRoute);
+// ----------------- /ROUTES -----------------------------
 
 // listen
 app.listen(PORT, () => {
