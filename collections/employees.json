@@ -1,0 +1,6 @@
+{"_id":{"$oid":"5f5e8fb40a7e1c114caa6860"},"fullname":"Imam","nik":12345,"email":"imam@gmail.com","date_updated":{"$date":"2020-09-13T21:31:32.941Z"},"__v":0}
+{"_id":{"$oid":"5f5e8ffd0a7e1c114caa6863"},"fullname":"Raisa Andriana","nik":98763,"email":"raisa@gmail.com","date_updated":{"$date":"2020-09-13T21:32:45.641Z"},"__v":0}
+{"_id":{"$oid":"5f5ea8486999bb16e848942c"},"fullname":"Budi","nik":33392,"email":"budi@gmail.com","date_updated":{"$date":"2020-09-13T23:16:24.241Z"},"__v":0}
+{"_id":{"$oid":"5f5eab081b1a4205d8b60b7b"},"fullname":"Albert","nik":93433,"email":"albert@gmail.com","date_updated":{"$date":"2020-09-13T23:28:08.271Z"},"__v":0}
+{"_id":{"$oid":"5f5eab231b1a4205d8b60b7f"},"fullname":"Tesla","nik":93431,"email":"tesla@gmail.com","date_updated":{"$date":"2020-09-13T23:28:35.444Z"},"__v":0}
+{"_id":{"$oid":"5f5eae471c88cc12e0db3039"},"fullname":"Elon","nik":87223,"email":"elon@muskl.com","date_updated":{"$date":"2020-09-13T23:41:59.768Z"},"__v":0}
