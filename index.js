@@ -8,6 +8,7 @@ require('dotenv').config();
 
 const empRoute = require('./routes/emp');
 const absensiRoute = require('./routes/absensi');
+const absensiRouteOut = require('./routes/absensi_out');
 
 const PORT = process.env.PORT || 3000;
 
@@ -34,7 +35,8 @@ mongoose.connect(process.env.mongoURI, {
 
 // ----------------- ROUTES -----------------------------
 app.use('/api/emp', empRoute);
-app.use('/api/absensi', absensiRoute);
+app.use('/api/in', absensiRoute);
+app.use('/api/out', absensiRouteOut);
 // ----------------- /ROUTES -----------------------------
 
 // listen

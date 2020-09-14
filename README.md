@@ -56,8 +56,19 @@ rest api using nodejs (expressJS), MongoDB, Postman
 
 
 ##### Absensi
-1. `/api/absensi` GET all data
-![npm run dev](assets/img/07_get-api-absensi.JPG "get api/absensi")
+***In:***
+1. `/api/in` GET all data
+![npm run dev](assets/img/07_get-api-absensi.JPG "get api/in")
 
-1. `/api/absensi` POST create new data
-![npm run dev](assets/img/08_post-api-absensi-nik.JPG "post api/absensi")
+2. `/api/in` POST create new data
+![npm run dev](assets/img/08_post-api-absensi-nik.JPG "post api/in")
+
+***Out:***
+1. `/api/out` GET all data (pulang) BEFORE
+![npm run dev](assets/img/10_api-out-date_out_before.JPG "post api/out")
+
+2. `/api/out` PATCH update a data (pulang)
+![npm run dev](assets/img/09_patch-api-out-date_out.JPG "post api/out")
+
+3. `/api/out` GET all data (pulang) AFTER
+![npm run dev](assets/img/11_api-out-date_out_after.JPG "post api/out")
