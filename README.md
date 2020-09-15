@@ -35,15 +35,16 @@ use json collections data from `collections/*.json`
 
 | Endpoint  |Verbs   |Desc   |
 |---|---|---|
+|Employees | | |
 | http://127.0.0.1:3000/api/emp  |GET   | get datas of all employees  |
 | http://127.0.0.1:3000/api/emp/:id  |GET   | get employee's data based on id|
 | http://127.0.0.1:3000/api/emp  |POST   | Create a new employee data (fullname, nik, email) in postman  |
 | http://127.0.0.1:3000/api/emp/:id  |DELETE   | Delete employee's data according to pointed id  |
 | http://127.0.0.1:3000/api/emp/:id |PATCH   | Update employee's data  |
-| | | |
+|in | | |
 | http://127.0.0.1:3000/api/in |GET   | get all employee's presence data  |
 | http://127.0.0.1:3000/api/in |POST   | post employee's presence data  |
-| | | |
+|out | | |
 | http://127.0.0.1:3000/api/out |GET   | get all employee's out data  |
 | http://127.0.0.1:3000/api/out |POST   | post employee's out data  |
 
