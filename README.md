@@ -1,3 +1,6 @@
+### REST API
+rest api using nodejs (expressJS), MongoDB, Postman
+
 ### Tested on:
 - Windows 7 Ultimate
 - Visual Studio Code v 1.49.*
@@ -27,9 +30,6 @@ node index
 ```
 
 use json collections data from `collections/*.json`
-
-### REST API
-rest api using nodejs (expressJS), MongoDB, Postman
 
 ### Endpoint and Verbs
 
